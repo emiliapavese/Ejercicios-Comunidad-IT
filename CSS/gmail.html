@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Crea tu cuenta de Google</title>
+            <style type="text/css">
+                body {font-family: Arial, Helvetica, sans-serif;
+                    background-color: #FFF;}
+                form {background-color: #e6ecf0;
+                    font-size: 14px;
+                    width: 500px;
+                    padding: 10px 80px;}
+                h4 {margin-bottom: 2px;}
+                .names {border: 1px solid #B1B5B8;
+                    border-top: 1px solid #878B8C;
+                    height: 25px;
+                    padding-left: 8px;
+                    margin-right: 8px;
+                    cursor: text;}
+                .username {border: 1px solid #B1B5B8;
+                    border-top: 1px solid #878B8C;
+                    height: 25px;
+                    width: 360px;
+                    text-align: right;
+                    padding-right: 8px;
+                    cursor: text;}
+                .password {border: 1px solid #B1B5B8;
+                    border-top: 1px solid #878B8C;
+                    height: 25px;
+                    width: 368px;
+                    cursor: text;}
+                .day {border: 1px solid #B1B5B8;
+                    border-top: 1px solid #878B8C;
+                    height: 25px;
+                    width: 70px;
+                    margin-right: 8px;
+                    cursor: text;}
+                .month {border: 1px solid #B1B5B8;
+                    height: 25px;
+                    width: 160px;
+                    margin-right: 8px;
+                    background-color: #e6ecf0;}
+                .year {border: 1px solid #B1B5B8;
+                    border-top: 1px solid #878B8C;
+                    height: 25px;
+                    width: 110px;
+                    cursor: text;}
+                .gender {border: 1px solid #B1B5B8;
+                    height: 25px;
+                    width: 368px;
+                    background-color: #e6ecf0;}
+                .button {width: 100px;
+                    height: 30px;
+                    background-color: #4d90fe;
+                    border: 1px solid #3079ed;
+                    border-radius: 2px 2px;
+                    color: #FFF;
+                    margin: 20px 0px 0px 269px;
+                    font-size: 80%;
+                    font-weight: bold;}
+                .names:hover {box-shadow: inset 1px 1px 1px 0 #828687;}
+                .username:hover {box-shadow: inset 1px 1px 1px 0 #828687;}
+                .password:hover {box-shadow: inset 1px 1px 1px 0 #828687;}
+                .day:hover {box-shadow: inset 1px 1px 1px 0 #828687;}
+                .year:hover {box-shadow: inset 1px 1px 1px 0 #828687;}
+                .month:hover {box-shadow: 1px 1px 1px 0 #828687;}
+                .gender:hover {box-shadow: 1px 1px 1px 0 #828687;}
+                .button:hover {background-color: #437EDE;
+                    border: 1px solid #2A69CF;}
+            </style>
+        </head>
+        <body>
+             <form action="#" method="post" enctype="application/x-www-form-urlencoded">
+                <h4>Nombre</h4>
+                <input type="text" class="names" placeholder="Nombre" name="name" checked="checked" />
+                <input type="text" class="names" placeholder="Apellido" name="lastname" checked="checked" />
+                <h4>Elige tu nombre de usuario</h4>
+                <input type="text" class="username" placeholder="@gmail.com" name="email" checked="checked" />
+                <h4>Crea una contraseña</h4>
+                <input type="password" class="password" name="password" checked="checked" />
+                <h4>Confirma tu contraseña</h4>
+                <input type="password" class="password" name="confirm" checked="checked" />
+                <h4>Fecha de nacimiento</h4>
+                <input type="text" class="day" placeholder="Día" name="day" checked="checked" />
+                <select class="month" name="month">
+                    <option value="Mes" value="checked">Mes</option>
+                    <option value="ene">ene</option>
+                    <option value="feb">feb</option>
+                    <option value="mar">mar</option>
+                    <option value="abr">abr</option>
+                    <option value="may">may</option>
+                </select>
+                <input type="text" class="year" placeholder="Año" name="year" checked="checked" />
+                <h4>Género</h4>
+                <select class="gender" name="mes">
+                    <option value="soy..." value="checked">Soy...</option>
+                    <option value="mujer">Mujer</option>
+                    <option value="hombre">Hombre</option>
+                    <option value="otro">Otro</option>
+                    <option value="prefiero">Prefiero no decirlo</option>
+                </select>
+                <h4>Teléfono celular</h4>
+                <input type="text" class="password" placeholder="+54" name="phone" checked="checked" />
+                <h4>Tu dirección de correo electrónico actual</h4>
+                <input type="text" class="password" name="email" />
+                <h4>Ubicación</h4>
+                <select class="gender" name="place">
+                    <option value="arg" value="checked">Argentina</option>
+                    <option value="afg">Afganistán</option>
+                    <option value="alb">Albania</option>
+                    <option value="ale">Alemania</option>
+                    <option value="and">Andorra</option>
+                    <option value="ang">Angola</option>
+                </select>
+                <div> 
+                    <input type="submit" class="button" name="siguiente" value="Siguiente Paso" />
+                </div>
+             </form>
+        </body>
+    </html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Inicia sesión</title>
+            <style type="text/css">
+                body {background-color: #FFF;
+                    font-family: Arial, Helvetica, sans-serif;}
+                h1 {font: Helvetica;
+                    font-size: 35px;
+                    margin-bottom: 0px;}
+                a {text-decoration: none;
+                    color: #22298F;}
+                .formulario {width: 500px;
+                    background-color: #e6ecf0;}
+                .gratis {font-size: 20px;
+                    font-weight: normal;
+                    color: #333;
+                    margin-top: 4px;}
+                .nombres {font-size: 18px;
+                    border: 1px solid #ABB0B2;
+                    width: 200px;
+                    margin-bottom: 10px;
+                    display: inline-block;
+                    height: 35px;
+                    padding-left: 10px;
+                    margin-right: 5px;
+                    cursor: text;}
+                .mail-pass {font-size: 18px;
+                    border: 1px solid #ABB0B2;
+                    width: 421px;
+                    margin-bottom: 10px;
+                    display: inline-block;
+                    height: 35px;
+                    padding-left: 10px;
+                    margin-right: 5px;
+                    cursor: text;}
+                .fecha {font-weight: normal;
+                    color: #222;
+                    margin-bottom: 0px;}
+                .date {margin-right: 0px;
+                    margin-top: 0px;
+                    height: 30px;
+                    display: inline-block;}
+                .pregunta {display: inline-block;
+                    font-size: 11px;
+                    width: 150px;
+                    height: 50px;
+                    margin-left: 5px;}
+                .gender {font-weight: bold;}
+                .condiciones {font-size: 9px;
+                    color: #696969;
+                    padding: 10px 200px 10px 0px;}
+                a:hover {text-decoration: underline;}
+                .gender:hover {cursor: pointer;}
+                .boton:hover {cursor: pointer;}
+                .nombres:active {border: 2px solid #3765E8;}
+                .mail-pass:active {border: 2px solid #3765E8;}
+            </style>
+        </head>
+        <body>
+            <div class="formulario">
+                <h1>Crea una cuenta</h1>
+                <h3 class="gratis">Es gratis y lo será siempre.</h3>
+                <form action="#" method="post" enctype="application/x-www-form-urlencoded">
+                    <input class="nombres" type="text" name="nombre" placeholder="Nombre" />
+                    <input class="nombres" type="text" name="apellido" placeholder="Apellido" checked="checked" />
+                    <div>
+                        <input class="mail-pass" type="text" name="correo" placeholder="Número de celular o correo electrónico" checked="checked" />
+                    </div>
+                    <div>
+                        <input class="mail-pass" type="password" name="password" placeholder="Contraseña nueva" checked="checked" />
+                    </div>
+                    <div>
+                        <h3 class="fecha">Fecha de nacimiento</h3>
+                    </div>
+                    <span>
+                        <select class="date" name="dia">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <select class="date" name="mes">
+                            <option value="ene">ene</option>
+                            <option value="feb">feb</option>
+                            <option value="mar">mar</option>
+                            <option value="abr">abr</option>
+                            <option value="may">may</option>
+                        </select>
+                        <select class="date" name="año">
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                        </select>
+                    </span>
+                    <span>
+                        <p class="pregunta"><a href="#">¿Por qué tengo que proporcionar mi fecha de nacimiento?</a></p>
+                    </span>
+                    <div class="gender">
+                        <input type="radio" name="gender" value="Mujer" />Mujer
+                        <input type="radio" name="gender" value="Hombre" />Hombre
+                    </div>
+                </form>
+                <p class="condiciones">Al hacer clic en "Crear cuenta", aceptas las 
+                    <a href="#">Condiciones</a> 
+                    y confirmas que leíste nuestra 
+                    <a href="#">Política de datos</a>
+                    , incluido el 
+                    <a href="#">uso de cookies</a>
+                    . Es posible que recibas notificaciones por SMS de Facebook, que puedes desactivar en cualquier momento.
+                </p>
+                <input type="image" src="boton1.png" class="boton" />
+            </div>
+        </body>
+    </html>

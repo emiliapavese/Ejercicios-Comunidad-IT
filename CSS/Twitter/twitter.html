@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Iniciar sesión en Twitter</title>
+            <style type="text/css">
+                body {background-color: #e6ecf0;
+                    font-family: Arial, sans-serif}
+                .iniciar {border-top: 1px solid #BABEC2;
+                    border-right: 1px solid #BABEC2;
+                    border-left: 1px solid #BABEC2;
+                    background-color: #FFF;
+                    width: 600px;
+                    height: 170px;
+                    padding: 10px;
+                    margin-top: 10px;}
+                h1 {font-size: 24px;
+                    line-height: 8px;}
+                .usuario {font-size: 14px;
+                    border: 1px solid #e6ecf0;
+                    width: 260px;
+                    margin-bottom: 10px;
+                    display: inline-block;
+                    height: 25px;}
+                .password {font-size: 14px;
+                    border: 1px solid #e6ecf0;
+                    width: 260px;
+                    margin-bottom: 25px;
+                    display: inline-block;
+                    height: 25px;}
+                .recordar {font-size: 14px;
+                    cursor: pointer;}
+                .olvidaste {font-size: 14px;
+                    color: #0B75ED;
+                    text-decoration: none;
+                    cursor: pointer;}
+                .pie {background-color: #f5f8fa;
+                    border-bottom: 1px solid #BABEC2;
+                    border-right: 1px solid #BABEC2;
+                    border-left: 1px solid #BABEC2;
+                    width: 620px;
+                    height: 80px;}
+                .nuevo {text-decoration: none;
+                    font-size: 14px;
+                    padding-top: 15px;
+                    padding-left: 10px;}
+                .usas {font-size: 14px;
+                    padding-top: 15px;
+                    padding-left: 10px;}
+                .registrate {text-decoration: none;
+                    color: #0B75ED;
+                    cursor: pointer;}
+                .activa {text-decoration: none;
+                    color: #0B75ED;
+                    cursor: pointer;}
+                .header {background-color: #FFF;
+                    max-width: auto;
+                    font-size: 14px;
+                    text-decoration: none;
+                    height: 40px;
+                    border-bottom: 1px solid #898C8F;
+                    padding-left: 350px;
+                    padding-top: 10px;
+                    position: relative; top: 0; left: 0;}
+                .inicio {text-decoration: none;
+                    font-weight: bold;
+                    color: #898C8F}
+                .nosotros {text-decoration: none;
+                    font-weight: bold;
+                    color: #898C8F;
+                    padding: 30px;}
+                .idioma {display: inline;
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: #898C8F;
+                    padding-left: 240px;}
+                .formulario {position: absolute; top: 60px; left: 350px;}
+                .olvidaste:hover {text-decoration: underline;}
+                .registrate:hover {text-decoration: underline;}
+                .activa:hover {text-decoration: underline;}
+                .inicio:hover {text-decoration: underline;
+                    color: #00AAE7;}
+                .nosotros:hover {text-decoration: underline;
+                    color: #00AAE7;}
+                .idioma:hover {text-decoration: underline;
+                    color: #00AAE7;}
+            </style>
+        </head>
+        <body>
+            <header>
+                <div class="header">
+                    <img src="imagenes/pajaro.jpg">
+                    <a href="https://twitter.com/" class="inicio">Inicio</a>
+                    <a href="https://twitter.com/about" class="nosotros">Sobre nosotros</a>
+                    <form class="idioma">Idioma:
+                        <select name="Idioma">
+                            <option value="Español" selected="selected">Español</option>
+                            <option value="">Inglés</option>
+                            <option value="">Francés</option>
+                        </select>
+                    </form>
+                </div>
+            </header>
+            <section class="formulario">
+            <div class="iniciar">
+                <h1>Inicia sesión en Twitter</h1>
+                <form action="#" method="post" enctype="application/x-www-form-urlencoded">
+                <div>
+                    <input class="usuario" type="text" name="usuario" placeholder="Teléfono, correo o usuario" checked />
+                </div>
+                <div>
+                    <input class="password" type="password" name="password" maxlength="8" placeholder="Contraseña" checked />
+                </div>
+                <input type="image" src="imagenes/boton.png" height="30" />
+                <input class="recordar" type="checkbox" name="remember" value="Recordar mis datos" checked />Recordar mis datos .
+                <a class="olvidaste" href="https://twitter.com/account/begin_password_reset"> ¿Olvidaste tu contraseña?</a>
+                </form>
+            </div>
+            <div class="pie">
+                <div class="nuevo">¿Nuevo en Twitter? <a href="https://twitter.com/signup" class="registrate">Regístrate ahora>></a></div>
+                <div class="usas">¿Ya usas Twitter por SMS? <a href="https://twitter.com/account/complete" class="activa">Activa tu cuenta>></a></div>
+            </div>
+            </section>
+        </body>
+    </html>
