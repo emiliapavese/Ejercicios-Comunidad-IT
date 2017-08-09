@@ -1,0 +1,10 @@
+let nombre;
+let apellido;
+let edad;
+let fechaDeNacimiento;
+let direccion;
+nombre = 'Emilia';
+apellido = 'Pavese';
+edad = 36;
+fechaDeNacimiento = '30-12-1980';
+direccion = 'Paraisos 590';

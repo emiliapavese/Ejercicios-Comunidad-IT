@@ -1,0 +1,10 @@
+let nombre ='Emilia';
+let apellido = 'Pavese';
+let edad = 36;
+let fechaDeNacimiento = '30-12-1980';
+let direccion = 'Paraisos 590';
+console.log('Nombre:', nombre);
+console.log('Apellido:', apellido);
+console.log('Edad:', edad);
+console.log('Fecha De Nacimiento:', fechaDeNacimiento);
+console.log('Direccion:', direccion);
