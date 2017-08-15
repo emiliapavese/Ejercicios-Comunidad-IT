@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registrarme - Ray Bradbury</title>
+        <link rel="shortcut icon" href="imágenes/favicon.ico" type="image/x-icon">
+        <link href="styles.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <header class="header">
+            <a name="registro"><h1>Registro de nuevo usuario</h1></a>
+        </header>
+        <section>
+            <form class="registro" action="#" method="post" enctype="application/x-www-form-urlencoded">
+                <input class="inputbox" type="text" name="nombre" placeholder="Nombre" checked/>
+                <input class="inputbox" type="text" name="apellido" placeholder="Apellido" checked />
+                <br />
+                <br />
+                <input class="inputbox" type="text" name="username" placeholder="Username" checked />
+                <input class="inputbox" type="password" name="password" placeholder="Contraseña" maxlength="8" checked />
+                <div>
+                    <h4>Fecha de nacimiento:</h4>
+                    <input class="inputbox" type="date" name="fechanacimiento" />
+                </div>
+                <br />
+                <div>
+                    <h4>Género:</h4>
+                    <input type="radio" name="genero" value="Masculino" /> Masculino
+                    <input type="radio" name="genero" value="Femenino" /> Femenino
+                    <input type="radio" name="genero" value="Otros" /> Otros
+                </div>
+                <div>
+                    <h4>País:</h4>
+                    <select class="inputbox" name="paises">
+                        <option value="Argentina" selected="selected">Argentina</option>
+                        <option value="Perú">Perú</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Brasil">Brasil</option>
+                    </select>
+                </div>
+                <br />
+                <div>
+                    <h4>Email:</h4>
+                    <input class="inputbox" type="email" name="email" checked />
+                </div>
+                <br />
+                <input class="submit" type="submit" name="submit" value="Crear Usuario" />
+            </form>
+        </section>
+        <hr />
+        <br />
+    </body>
+    <footer>
+        <a href="#registro">Volver arriba</a>
+        <a href="index.html">Volver al inicio</a>
+    </footer>
+</html>
